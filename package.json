@@ -1,0 +1,28 @@
+{
+  "name": "clm-context",
+  "version": "0.1.0",
+  "description": "CLM-style self-managed context plugin for opencode: live model-editable context file, fit/shrink edit gate, and token budget enforcement",
+  "type": "module",
+  "main": "src/clm-context.ts",
+  "exports": {
+    ".": "./src/clm-context.ts"
+  },
+  "scripts": {
+    "test": "bun test"
+  },
+  "keywords": [
+    "opencode",
+    "plugin",
+    "context",
+    "clm",
+    "context-language-models",
+    "compaction"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@opencode-ai/plugin": "*"
+  },
+  "devDependencies": {
+    "@opencode-ai/plugin": "^1.17.12"
+  }
+}
